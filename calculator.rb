@@ -1,8 +1,8 @@
 # Add your variables here
 def calculator
   
-  first_variable = "hello"
-  #first_variable = 7
+  #first_variable = "hello"
+  first_variable = 7
   second_variable = 5
   
   if !first_variable.is_a? Integer || !first_variable/is_a? Float
@@ -10,9 +10,9 @@ def calculator
     return
   end
   
-  if second_variable is not Integer or float
+  if !second_variable.is_a? Integer || !second_variable.is_a?Float
       then print "Error - wrong type"
-      elsif second_variable = 0
+      elsif second_variable == 0
       then print "Error - invalid value"
     return
   end
